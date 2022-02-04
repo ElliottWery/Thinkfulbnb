@@ -39,6 +39,7 @@ main img {
   width: 100px;
 }
 
+
 /* ---  Groups & Items --- */
 
 .group {
@@ -161,6 +162,11 @@ footer p {
     padding-right: 10px;
   }
   form > div {
+    display: inline-flex;
+    justify-content: space-between;
+  }
+  form button {
+    width: auto;
     display: inline-flex;
     justify-content: flex-end;
     margin-left: 100px;
